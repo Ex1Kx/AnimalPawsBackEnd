@@ -1,0 +1,15 @@
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\AnimalPaws.Data.deps.json
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\AnimalPaws.Data.dll
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\ref\AnimalPaws.Data.dll
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\AnimalPaws.Data.pdb
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\AnimalPaws.Model.dll
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\bin\Debug\net5.0\AnimalPaws.Model.pdb
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.csproj.AssemblyReference.cache
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.AssemblyInfoInputs.cache
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.AssemblyInfo.cs
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.csproj.CoreCompileInputs.cache
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.csproj.CopyComplete
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.dll
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\ref\AnimalPaws.Data.dll
+C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Data\obj\Debug\net5.0\AnimalPaws.Data.pdb
