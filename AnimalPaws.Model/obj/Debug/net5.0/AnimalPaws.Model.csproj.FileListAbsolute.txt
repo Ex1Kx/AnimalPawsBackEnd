@@ -10,3 +10,15 @@ C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Model\obj\Debug\net5.0\AnimalP
 C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.dll
 C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Model\obj\Debug\net5.0\ref\AnimalPaws.Model.dll
 C:\Users\ekigo\source\repos\AnimalPaws\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.pdb
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\bin\Debug\net5.0\AnimalPaws.Model.deps.json
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\bin\Debug\net5.0\AnimalPaws.Model.dll
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\bin\Debug\net5.0\ref\AnimalPaws.Model.dll
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\bin\Debug\net5.0\AnimalPaws.Model.pdb
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.dll
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\ref\AnimalPaws.Model.dll
+C:\Users\USUARIO\Downloads\BackEnd-AnimalPaws\AnimalPawsBackEnd\AnimalPaws.Model\obj\Debug\net5.0\AnimalPaws.Model.pdb

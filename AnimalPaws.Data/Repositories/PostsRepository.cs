@@ -13,14 +13,14 @@ namespace AnimalPaws.Data.Repositories
             _connectionString = connectionString;
         }
 
-        protected MySqlConnection dbConnection()
+        protected MySqlConnection DbConnection()
         {
             return new MySqlConnection(_connectionString.ConnectionString);
         }
 
         public async Task<IEnumerable<Posts>> GetPosts()
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"
                         SELECT idpost, post_title, post_description, url_img, post_category
                         FROM posts";
@@ -28,7 +28,7 @@ namespace AnimalPaws.Data.Repositories
         }
         public async Task<bool> uploadPost(Posts posts)
         {
-            var db = dbConnection();
+            var db = DbConnection();
 
             var sql = @"
                          INSERT INTO posts (post_title, post_description, url_img)
@@ -40,7 +40,7 @@ namespace AnimalPaws.Data.Repositories
 
         public async Task<bool> updatePost(Posts posts)
         {
-            var db = dbConnection();
+            var db = DbConnection();
 
             var sql = @"
                         UPDATE posts
@@ -52,7 +52,7 @@ namespace AnimalPaws.Data.Repositories
 
         public async Task<bool> deletePost(Posts posts)
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"
                         DELETE
                         FROM posts

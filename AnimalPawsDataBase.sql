@@ -7,6 +7,18 @@ post_description varchar(80),
 url_img varchar(80),
 post_category varchar(20)
 );
+
+create table foundation (
+codigo_foundation int not null primary key,
+name_fundation varchar(60) not null,
+address_foundation varchar(80) not null,
+description_foundation text not null,
+phone_foundation int not null,
+sponsorship_foundation varchar(60) not null,
+schedules_foundation varchar(60) not null
+);
+
+
 insert into posts (post_title, post_description, url_img, post_category)
 values ('First Test', 'Is Just A Test', 'https://i.imgur.com/1oCTuhw.png', 'Donation');
 insert into posts (post_title, post_description, url_img, post_category)

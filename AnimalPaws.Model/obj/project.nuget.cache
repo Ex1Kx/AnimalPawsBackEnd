@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "g/rwib/5Kfl9MQOexmm12U3x5tGLqaueAp+5y94PhqfdEUk70ByFatdNrRhuI7JHmESwpDjizF2tQS0A3t5lEA==",
+  "dgSpecHash": "GuCpI/zTJqWMklp7f6Vj/SAt2do9d7uQVjTNAV2qJ7SGZEfrYUVvFYXz8vB31Q4Mly72dQWyCb9oc9MDezsn7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ekigo\\source\\repos\\AnimalPaws\\AnimalPaws.Model\\AnimalPaws.Model.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Downloads\\BackEnd-AnimalPaws\\AnimalPawsBackEnd\\AnimalPaws.Model\\AnimalPaws.Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ekigo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+    "C:\\Users\\USUARIO\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
   ],
   "logs": []
 }
