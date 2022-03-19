@@ -31,6 +31,7 @@ namespace AnimalPaws
             services.AddSingleton(mySQLConnectionConfig);
 
             services.AddScoped<PostInterface, PostsRepository>();
+            services.AddScoped<AssociationInterface, AssociationRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -21,7 +21,7 @@ namespace AnimalPaws.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetPost()
+        public async Task<IActionResult> GetAnuncios()
         {
             return Ok(await _posts.GetPosts());
         }

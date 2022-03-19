@@ -1,66 +1,34 @@
-/*1. Obtener todos los datos de todos los empleados (incluir el nombre del
-departamento).*/
-SELECT E.EMPNO, E.ENAME, E.JOB, E.MGR, E.HIREDATE, E.SAL, E.COMM, E.DEPTNO,  D.DNAME
-FROM emp E, dept D
-WHERE E.DEPTNO = D.DEPTNO
-ORDER BY E.ENAME;
-/*2. Obtener todos los datos de todos los departamentos.*/
-SELECT DEPTNO, DNAME, LOC
-FROM dept
-ORDER BY DEPTNO;
-/*3. Obtener todos los datos de los empleados cuyo trabajo es, 'CLERK'*/
-SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO
-FROM emp
-WHERE JOB LIKE '%CLERK%'
-ORDER BY EMPNO;
-/*4. Igual que el punto anterior (Idem), pero ordenado por el nombre.*/
-SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO
-FROM emp
-WHERE JOB LIKE '%CLERK%'
-ORDER BY ENAME;
-/*5. Obtener el mismo resultado de la pregunta anterior, pero modificando la
-sentencia SQL al no nombrar la columna ename.*/
-SELECT EMPNO, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO
-FROM emp
-WHERE JOB LIKE '%CLERK%'
-ORDER BY ENAME;
-/*6. Obtener el número (codigo), nombre y salario de los empleados.*/
-SELECT EMPNO, ENAME, SAL
-FROM emp
-ORDER BY EMPNO;
-/*7. Lista los nombres de todos los departamentos de manera Z-A*/
-SELECT DNAME
-FROM dept
-ORDER BY DNAME DESC;
-/*8. Idem, pero ordenándolos por localidad.*/
-SELECT DNAME
-FROM dept
-ORDER BY LOC DESC;
-/*9. Idem, pero ordenándolo por la ciudad (no se debe seleccionar la ciudad en
-el resultado).*/
-SELECT DNAME
-FROM dept
-ORDER BY LOC;
-/*10.Obtener el nombre y empleo de todos los empleados, ordenado por salario*/
-SELECT ENAME, JOB, SAL
-FROM emp
-ORDER BY SAL;
-/*11.Obtener el nombre y empleo de todos los empleados, ordenado primero por
-su trabajo y luego por su salario.*/
-SELECT ENAME, JOB, SAL
-FROM emp
-ORDER BY JOB, SAL;
-/*12.Idem, pero ordenando inversamente por empleo y normalmente por salario*/
-SELECT ENAME, JOB, SAL
-FROM emp
-ORDER BY JOB DESC, SAL;
-/*13.Obtener los salarios y las comisiones de los empleados del departamento 30*/
-SELECT ENAME, SAL, COMM
-FROM emp
-WHERE DEPTNO LIKE '%30%'
-ORDER BY SAL;
-/*14.Idem, pero ordenado por comisión.*/
-SELECT ENAME, SAL, COMM
-FROM emp
-WHERE DEPTNO LIKE '%30%'
-ORDER BY COMM;
+create schema animalpaws;
+use animalpaws;
+create table posts(
+idpost int auto_increment not null primary key,
+post_title varchar(20),
+post_description varchar(80),
+url_img varchar(80),
+post_category varchar(20)
+);
+
+create table associations (
+id_association int not null  auto_increment key,
+name_association varchar(60) not null,
+add_association varchar(80) not null,
+desc_association text not null,
+phone_association int not null,
+sponsor_association varchar(60) not null,
+schedule_association varchar(60) not null
+);
+
+create table users(
+id int auto_increment primary key,
+names varchar(60),
+last_name varchar(60),
+username varchar(60),
+description varchar(80)
+);
+
+insert into posts (post_title, post_description, url_img, post_category)
+values ('First Test', 'Is Just A Test', 'https://i.imgur.com/1oCTuhw.png', 'Donation');
+insert into posts (post_title, post_description, url_img, post_category)
+values ('Second Test', 'Is Just A Second Test', 'https://i.imgur.com/kSB4FlF.png', 'Donation');
+insert into posts (post_title, post_description, url_img, post_category)
+values ('Third Test', 'Is Just A Third Test', 'https://i.imgur.com/YbYWCSz.jpeg', 'Adoption');
