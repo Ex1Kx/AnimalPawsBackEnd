@@ -32,6 +32,8 @@ namespace AnimalPaws
 
             services.AddScoped<PostInterface, PostsRepository>();
             services.AddScoped<AssociationInterface, AssociationRepository>();
+            services.AddScoped<UserInterface, UserRepository>();
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

@@ -32,3 +32,17 @@ insert into posts (post_title, post_description, url_img, post_category)
 values ('Second Test', 'Is Just A Second Test', 'https://i.imgur.com/kSB4FlF.png', 'Donation');
 insert into posts (post_title, post_description, url_img, post_category)
 values ('Third Test', 'Is Just A Third Test', 'https://i.imgur.com/YbYWCSz.jpeg', 'Adoption');
+
+insert into associations (name_association, add_association, desc_association, phone_association, sponsor_association, schedule_association)
+values('Association Test 1', 'Is Just A Test', 'Association Test N1', '123456', 'Paws Rescue', '17:00');
+insert into associations (name_association, add_association, desc_association, phone_association, sponsor_association, schedule_association)
+values('Association Test 2', 'Is Juts A Second Test', 'Association Test N2', '123456', 'Paws Rescue Rebirth', '20:00');
+insert into associations (name_association, add_association, desc_association, phone_association, sponsor_association, schedule_association)
+values('Association Test 3', 'Is Just A Third Test', 'Association Test N3', '123456', 'Paws Rescue Remake', '13:00');
+
+insert into users(names, last_name, username, description)
+values('Julian', 'Lozada', 'Ex1', 'My Description Is So Boring, Right?')
+insert into users(names, last_name, username, description)
+values('Angie', 'Lugo', 'Humming Moon', 'No Description Provided...')
+insert into users(names, last_name, username, description)
+values('Camilo', 'Cruz', 'Ragnarok', 'No Description Provided...')
